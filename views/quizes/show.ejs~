@@ -1,0 +1,12 @@
+<form method="get" action="/quizes/<%= quiz.id %>/answer">
+  Pregunta: <%= quiz.pregunta %> <p>
+  <input type="text" name="respuesta" value="Respuesta" />
+  <input type="submit" value="Enviar" />
+</form>
+
+<p>
+<form method="get" action="">
+  ¿Qué desea buscar? <p>
+  <input type="text" name="search" />
+  <input type="submit" value="Buscar" />
+</form>

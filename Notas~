@@ -1,0 +1,1 @@
+Cuando añadimos nuevas preguntas a la base de datos, hay que eliminar el fichero quiz.sqlite para que, al cargar de nuevo el programa con foreman start, aparezca automáticamente un nuevo fichero con dicho nombre con base de datos actualizada.
